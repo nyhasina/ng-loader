@@ -1,0 +1,6 @@
+<div *ngIf="loader" @show [style.height.px]="height" [style.width.px]="width" class="loader-container">
+      <app-ring></app-ring>
+</div>
+<ng-container>
+  <ng-content></ng-content>
+</ng-container>
